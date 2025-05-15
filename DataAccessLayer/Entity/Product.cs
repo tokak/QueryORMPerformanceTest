@@ -10,7 +10,7 @@ namespace DataAccessLayer.Entity
     {
         public int Id { get; set; }
         public string ProductName { get; set; }
-        public string ProdoctStock { get; set; }
+        public string ProductStock { get; set; }
         public string ProductPrice { get; set; }
     }
 }

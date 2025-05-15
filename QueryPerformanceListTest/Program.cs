@@ -71,7 +71,6 @@ class Program
                 count = (int)command.ExecuteScalar(); 
             }
         }
-
         stopwatch.Stop(); // Zaman ölçümü durdurulur
         return (count, stopwatch.ElapsedMilliseconds); 
     }
